@@ -30,7 +30,7 @@ router.post('/api/add',(req,res)=>{
 
 });
 router.get('/api/user',(req,res)=>{
-    res.send(users);
+    res.status(200).send(users);
 })
 
 module.exports = router;
